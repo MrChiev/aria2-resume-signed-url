@@ -1,0 +1,11 @@
+# Never commit the download itself or aria2 state
+*.tar.gz
+*.zip
+*.aria2
+*.part
+Downloads/
+Server/
+
+# Never commit signed URLs
+*.url
+urls.txt
